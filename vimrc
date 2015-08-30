@@ -158,3 +158,9 @@ set diffopt+=vertical
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+Plug 'altercation/vim-colors-solarized'
+syntax enable
+set background=dark
+colorscheme solarized
+

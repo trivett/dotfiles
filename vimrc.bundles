@@ -43,9 +43,24 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
-
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'pangloss/vim-javascript'
+Plug 'godlygeek/tabular'
+Plug 'altercation/vim-colors-solarized'
+Plug 'ap/vim-css-color'
+Plug 'tpope/vim-rails'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-markdown'
+Plug 'digitaltoad/vim-jade'
+Plug 'tpope/vim-endwise'
+Plug 'ervandew/supertab'
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
 
 call plug#end()
+
+syntax enable
+set background=dark
+colorscheme solarized
