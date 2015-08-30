@@ -164,3 +164,11 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+nmap ^ 0
+nmap <leader>rc :sp $MYVIMRC<cr>
+nmap <leader>v :set paste<cr>
+nmap <leader>e $
+nmap <leader>co ggVG"*y
+command! Q q
+
+

@@ -55,6 +55,7 @@ Plug 'tpope/vim-markdown'
 Plug 'digitaltoad/vim-jade'
 Plug 'tpope/vim-endwise'
 Plug 'ervandew/supertab'
+Plug 'bling/vim-airline'
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif

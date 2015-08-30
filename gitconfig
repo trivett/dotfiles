@@ -24,3 +24,12 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	email = trivett@gmail.com
+	name = Vincent Trivett
+[alias]
+  co = checkout
+  cm = commit -m
+  cob = checkout -b
+  s = status
+  
