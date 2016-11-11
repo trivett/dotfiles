@@ -56,12 +56,13 @@ Plug 'digitaltoad/vim-jade'
 Plug 'tpope/vim-endwise'
 Plug 'ervandew/supertab'
 Plug 'bling/vim-airline'
+Plug 'mhartington/oceanic-next'
+Plug 'othree/yajs'
+Plug 'othree/html5'
+   
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
 
 call plug#end()
 
-syntax enable
-set background=dark
-colorscheme solarized

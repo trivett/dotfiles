@@ -159,10 +159,13 @@ if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
 
-Plug 'altercation/vim-colors-solarized'
 syntax enable
-set background=dark
-colorscheme solarized
+set t_Co=256
+colorscheme OceanicNext
+
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 nmap ^ 0
 nmap <leader>rc :sp $MYVIMRC<cr>
